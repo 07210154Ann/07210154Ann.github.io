@@ -1,0 +1,125 @@
+body {
+    margin: 0
+}
+
+.heater {
+    background: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Train One', cursive;
+    position: relative;
+    left: 10px;
+}
+
+.sub {
+    color: white;
+    font-size: 20px;
+}
+
+.menu-btn {
+    width: 64px;
+    height: 64px;
+    background: DarkSeaGreen;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+
+.menu-btn span {
+    width: 60%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-box {
+    width: 100%;
+    height: 70%;
+    background: DarkSeaGreen;
+    position: fixed;
+    left: 0;
+    top: -70%;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.menu-box a {
+    color: #fff;
+    font-size: 45px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.active {
+    top: 0 !important;
+}
+
+.b1 {
+    background: LightSteelBlue;
+    width: 100%;
+    height: 580px;
+}
+
+.b2 {
+    background: AliceBlue;
+    width: 40%;
+    height: 580px;
+}
+
+.heaa {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.b3 {
+    margin-left: 550px;
+    margin-top: -400px;
+}
+
+.w1 {
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .logo {
+        font-size: 15px;
+    }
+
+    .menu-box a {
+        font-size: 30px;
+        line-height: 2;
+    }
+
+    .heaa {
+        width: 140px;
+        margin-top: 220px;
+        margin-left: 20px;
+    }
+
+    .b3 {
+        margin-left: 220px;
+        margin-top: -400px;
+    }
+
+    .w1 {
+        font-size: 20px;
+    }
+}

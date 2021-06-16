@@ -1,0 +1,293 @@
+body {
+    margin: 0
+}
+
+.heater {
+    background: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Train One', cursive;
+    position: relative;
+    left: 10px;
+}
+
+.sub {
+    color: white;
+    font-size: 20px;
+}
+
+.menu-btn {
+    width: 64px;
+    height: 64px;
+    background: DarkSeaGreen;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+
+.menu-btn span {
+    width: 60%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-box {
+    width: 100%;
+    height: 70%;
+    background: DarkSeaGreen;
+    position: fixed;
+    left: 0;
+    top: -70%;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.menu-box a {
+    color: #fff;
+    font-size: 45px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.active {
+    top: 0 !important;
+}
+
+.s1 {
+    background: LightBlue;
+    width: 100%;
+    height: 515px;
+}
+
+.p1 {
+    position: relative;
+    top: 70px;
+    left: 593px;
+
+}
+
+.p2 {
+    position: relative;
+    top: -380px;
+    height: 450px;
+
+}
+
+.w1 {
+    background-color: LightSteelBlue;
+    width: 20px;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -700px;
+
+}
+
+.s2 {
+    background: white;
+    width: 100%;
+    height: 2800px;
+}
+
+.p3 {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.p4 {
+    margin-left: 650px;
+    margin-top: -600px;
+}
+
+.w2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.w3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.p5 {
+    width: 550px
+}
+
+.p6 {
+    margin-left: 200px;
+}
+
+.ww3 {
+    height: 150px;
+    line-height: 150px;
+    margin-top: 60px;
+}
+
+.w4 {
+    text-align: right;
+    font-size: 20px;
+    background-color: LightSteelBlue;
+    width: 700px;
+}
+
+.p7 {
+    margin-left: 120px;
+
+}
+
+.p8 {
+    margin-left: -80px;
+    margin-top: 300px;
+}
+
+
+
+.footer {
+    background: LightSteelBlue;
+    width: 100%;
+    height: 200px;
+    clear: left;
+}
+
+.b {
+    color: MidnightBlue;
+    text-align: center;
+    line-height: 200px;
+}
+
+.top {
+    background: lavender;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width:768px) {
+    .logo{
+        font-size: 15px;
+    }
+    .menu-box a {
+        font-size: 30px;
+        line-height: 2;
+    }
+
+    .s1 {
+        background: LightBlue;
+        width: 100%;
+        height: 900px;
+    }
+
+    .p1 {
+        position: relative;
+        top: 70px;
+        left: 0px;
+        width: 450px;
+
+    }
+
+    .p2 {
+        position: relative;
+        top: 100px;
+        height: 400px;
+
+    }
+
+    .w1 {
+        background-color: LightSteelBlue;
+        width: 20px;
+        font-size: 30px;
+        margin-left: 350px;
+        margin-top: -200px;
+
+    }
+
+    .s2 {
+        background: white;
+        width: 100%;
+        height: 2400px;
+    }
+
+    .p3 {
+        margin-left: 10px;
+        margin-top: 100px;
+        height: 300px;
+    }
+
+    .p4 {
+        margin-left: 220px;
+        margin-top: -200px;
+        width: 250px;
+    }
+
+    .w2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .w3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .p5 {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .p6 {
+        margin-left: 250px;
+        width: 200px;
+    }
+
+    .ww3 {
+        height: 150px;
+        line-height: 150px;
+        margin-top: 60px;
+    }
+
+    .w4 {
+        text-align: right;
+        font-size: 20px;
+        background-color: LightSteelBlue;
+        width: 300px;
+    }
+
+    .p7 {
+        margin-left: 50px;
+        margin-top: 30px;
+
+    }
+
+    .p8 {
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 90%;
+    }
+    .p9{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
